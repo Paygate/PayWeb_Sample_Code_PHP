@@ -1,0 +1,367 @@
+/**
+ * Copyright (c) 2021 PayGate (Pty) Ltd
+ *
+ * Author: App Inlet (Pty) Ltd
+ *
+ * Released under the GNU General Public License
+ */
+
+body {
+    background: #F3F2EF;
+}
+/* Bootstrap Overrides */
+
+.container-sm {
+    max-width: 550px;
+}
+.form-control {
+    height: calc(1.5em + .75rem + 14px);
+    border: none;
+    margin-bottom: 4px;
+    color: #000;
+}
+.btn {
+    background-color: #24315d;
+}
+.btn:hover {
+    background-color: #d54187;
+}
+caption {
+    padding: 0;
+}
+/* Nav configuration */
+
+a.nav-link {
+    border: none !important;
+    border-bottom: 0 !important;
+    color: gray !important;
+}
+.nav-link.active {
+    font-weight: 550 !important;
+    color: #24315d !important;
+    border-bottom: 0 !important;
+}
+ul.nav-tabs {
+    border: none;
+}
+.tab-content {
+    padding: 0px;
+}
+.z-top {
+    background: #fff;
+    padding: 15px 15px 0 15px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 550 !important;
+}
+.z-form-group-wrapper label {
+    font-weight: 550;
+}
+.z-nav {
+    background: #fff;
+    padding: 0;
+    border-radius: 0;
+    margin-top: 0px;
+}
+.nav-item {
+    margin-bottom: 0 !important;
+}
+/* Forms */
+
+.card-title {
+    padding: 15px 15px 0 15px;
+}
+.z-formgroup {
+    background: #fff;
+    padding: 15px 15px 0 15px;
+    margin-bottom: 0 !important;
+}
+.z-form-group-wrapper {
+    background: #fff;
+    padding-bottom: 15px;
+    border-radius: 0 0 5px 5px;
+}
+/* Login / Register */
+
+div.z-buttons {
+    border: none;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logout_forgot {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto 90px auto;
+}
+/* Login Form */
+
+#loginFormResetPasswordButton {
+    margin-top: 10px;
+    float: left;
+    text-align: left;
+    line-height: 1.3em;
+    margin-left: 0px;
+    background: transparent;
+    color: #000;
+    border: none;
+    text-transform: uppercase;
+}
+#loginFormResetPasswordButton:hover {
+    opacity: 0.7;
+}
+div.login li.nav-item {
+    width: 50%;
+    text-align: center;
+}
+#loginFormButton.incomplete, #registerFormButton.incomplete, #forgotPasswordButton, #passwordResetButton, #passwordResetFormButton {
+    width: 100%;
+    height: 50px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-transform: uppercase;
+}
+#loginFormButton.complete, #registerFormButton.complete {
+    width: 100%;
+    height: 50px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-transform: uppercase;
+}
+#forgotPasswordButton, #passwordResetFormButton {
+    background-color: #5a6268;
+
+}
+a.logout {
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: auto;
+    background: transparent;
+    color: #000;
+    border: none;
+    float: right;
+    text-transform: uppercase;
+    text-align: right;
+}
+#loginimage {
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+/* Register Form */
+
+a.registerlogout {
+    background: transparent;
+    color: #000;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+#loginimageregister {
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+/* Admin Form */
+
+div.addRecord {
+    float: right;
+    margin-right: 20px;
+}
+#addRecordButton.incomplete {
+    background: #d54187;
+    text-transform: uppercase;
+    border: none;
+}
+#addRecordButton.complete {
+    text-transform: uppercase;
+    border: none;
+}
+div.admin li.nav-item {
+    width: 100%;
+    text-align: left;
+}
+#records-tab {
+    width: 100%;
+    text-align: left;
+}
+#logout_admin {
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+#logout_admin a {
+    border: none;
+    height: 50px;
+    width: 100%;
+    max-width: 280px;
+    text-transform: uppercase;
+    line-height: 38px;
+}
+#loginForm, #registerForm, #recordstable {
+    border-top: 2px solid #003036;
+}
+button.recordEdit.complete {
+    border: none;
+    text-transform: uppercase;
+}
+button.recordEdit.incomplete {
+    background: #d54187;
+    border: none;
+    text-transform: uppercase;
+}
+button.recordDelete {
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    color: grey;
+}
+th, td {
+    border: none !important;
+}
+input, select, textarea {
+    box-shadow: 0px 0px 6px 3px #eee;
+}
+div.addEdit {
+    width: 100%;
+    max-width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+button.addEditRecord {
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+button.addEditRecord:hover {
+    color: #fff;
+}
+button.addEditCancel {
+    border: none;
+    background: transparent;
+    text-transform: uppercase;
+}
+#registerButtons a:hover, #logout_forgot a:hover, .addEditCancel.btn:hover, .confirm-footer .btn.modal-dismiss:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    background-color: transparent;
+}
+/* Slider for input check box */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+/* The slider */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked+.slider {
+    background-color: #24315d;
+}
+input:focus+.slider {
+    box-shadow: 0 0 1px #24315d;
+}
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+.use_notify_label {
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+/* Message modals */
+
+div.alert.warning {
+    color: #ff4500;
+    text-align: center;
+}
+div.alert.danger {
+    color: red;
+    text-align: center;
+}
+div.alert.info {
+    color: #000;
+    text-align: center;
+}
+div.alert.success {
+    color: green;
+    text-align: center;
+}
+div.confirm-footer {
+    width: 100%;
+    max-width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+button.modal-confirm {
+    text-transform: uppercase;
+    color: #fff;
+}
+button.modal-confirm:hover {
+    color: #fff;
+}
+button.modal-dismiss {
+    text-transform: uppercase;
+    background: transparent;
+}
+
+a.navbar-brand > img {
+    height: 50px;
+    margin-top: -15px;
+}
