@@ -1,5 +1,5 @@
 # PayWeb_Sample_Code_PHP
-## PayGate Sample Code for PHP
+## PayGate Sample Code for C# .NET
 
 This is the PayGate PayWeb3 Sample Code for PHP which has been provided for reference purposes only.
 
