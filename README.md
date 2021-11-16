@@ -4,7 +4,7 @@
 This is the PayGate PayWeb3 Sample Code for PHP which has been provided for reference purposes only.
 
 ## Installation
-[![How To Setup PayGate PayWeb Sample Code for PHP](https://appinlet.com/wp-content/uploads/2021/11/How-To-Setup-PayGate-PayWeb-Sample-Code-for-C-.NET_.jpg)](https://www.youtube.com/watch?v=F7xHy9g4ess "How To Setup PayGate PayWeb Sample Code for PHP")
+[![How To Setup PayGate PayWeb Sample Code for PHP](https://appinlet.com/wp-content/uploads/2021/11/How-To-Setup-PayGate-PayWeb-Sample-Code-for-PHP.jpg)](https://www.youtube.com/watch?v=F7xHy9g4ess "How To Setup PayGate PayWeb Sample Code for PHP")
 
 ## Collaboration
 
